@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkelpis_demo=self.webpackChunkelpis_demo||[]).push([[380],{7380:(e,l,n)=>{n.r(l),n.d(l,{default:()=>c});var o=n(883);const t={},c=(0,n(4099).A)(t,[["render",function(e,l){return(0,o.openBlock)(),(0,o.createElementBlock)("div",null,"todo")}]])}}]);
