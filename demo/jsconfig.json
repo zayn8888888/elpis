@@ -1,0 +1,6 @@
+{
+  "extends": "@zaynhzm/elpis/jsconfig.json",
+  "compilerOptions": {
+    "baseUrl": "."
+  }
+}

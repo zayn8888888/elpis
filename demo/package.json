@@ -1,0 +1,35 @@
+{
+  "name": "elpis-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "cross-env _ENV=local nodemon index.js",
+    "beta": "cross-env _ENV=beta node index.js",
+    "prod": "cross-env _ENV=prod node index.js",
+    "build:dev": "cross-env _ENV=local node --max_old_space_size=4096 ./build.js",
+    "build:prod": "cross-env _ENV=prod node --max_old_space_size=4096 ./build.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.28.3",
+    "@zaynhzm/elpis": "^1.0.11",
+    "cross-env": "^10.0.0",
+    "knex": "^3.1.0",
+    "mysql2": "^3.14.3"
+  },
+  "nodemonConfig": {
+    "watch": [
+      "app",
+      "config"
+    ],
+    "ext": "js,json,css,html",
+    "ignore": [
+      "app/pages/"
+    ]
+  }
+}
