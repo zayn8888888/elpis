@@ -1,0 +1,103 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "$elpisBoot": [
+        "./app/pages/boot.js"
+      ],
+      "$elpisBoot/*": [
+        "./app/pages/boot.js/*"
+      ],
+      "$elpisPages": [
+        "./app/pages"
+      ],
+      "$elpisPages/*": [
+        "./app/pages/*"
+      ],
+      "$elpisCommon": [
+        "./app/pages/common"
+      ],
+      "$elpisCommon/*": [
+        "./app/pages/common/*"
+      ],
+      "$elpisCurl": [
+        "./app/pages/common/curl.js"
+      ],
+      "$elpisCurl/*": [
+        "./app/pages/common/curl.js/*"
+      ],
+      "$elpisUtils": [
+        "./app/pages/common/utils.js"
+      ],
+      "$elpisUtils/*": [
+        "./app/pages/common/utils.js/*"
+      ],
+      "$elpisHeaderContainer": [
+        "./app/pages/widgets/header-container/header-container.vue"
+      ],
+      "$elpisHeaderContainer/*": [
+        "./app/pages/widgets/header-container/header-container.vue/*"
+      ],
+      "$elpisSchemaTable": [
+        "./app/pages/widgets/schema-table/schema-table.vue"
+      ],
+      "$elpisSchemaTable/*": [
+        "./app/pages/widgets/schema-table/schema-table.vue/*"
+      ],
+      "$elpisSchemaForm": [
+        "./app/pages/widgets/schema-form/schema-form.vue"
+      ],
+      "$elpisSchemaForm/*": [
+        "./app/pages/widgets/schema-form/schema-form.vue/*"
+      ],
+      "$elpisSchemaSearchBar": [
+        "./app/pages/widgets/schema-search-bar/schema-search-bar.vue"
+      ],
+      "$elpisSchemaSearchBar/*": [
+        "./app/pages/widgets/schema-search-bar/schema-search-bar.vue/*"
+      ],
+      "$elpisWidgets": [
+        "./app/pages/widgets"
+      ],
+      "$elpisWidgets/*": [
+        "./app/pages/widgets/*"
+      ],
+      "$elpisStore": [
+        "./app/pages/store"
+      ],
+      "$elpisStore/*": [
+        "./app/pages/store/*"
+      ],
+      "vue": [
+        "./node_modules/.pnpm/vue@3.5.18/node_modules/vue/index.js"
+      ],
+      "vue/*": [
+        "./node_modules/.pnpm/vue@3.5.18/node_modules/vue/index.js/*"
+      ],
+      "element-plus": [
+        "./node_modules/.pnpm/element-plus@2.10.7_vue@3.5.18/node_modules/element-plus/lib/index.js"
+      ],
+      "element-plus/*": [
+        "./node_modules/.pnpm/element-plus@2.10.7_vue@3.5.18/node_modules/element-plus/lib/index.js/*"
+      ],
+      "@babel/runtime/helpers/asyncToGenerator": [
+        "./node_modules/.pnpm/@babel+runtime@7.28.3/node_modules/@babel/runtime/helpers/asyncToGenerator.js"
+      ],
+      "@babel/runtime/helpers/asyncToGenerator/*": [
+        "./node_modules/.pnpm/@babel+runtime@7.28.3/node_modules/@babel/runtime/helpers/asyncToGenerator.js/*"
+      ],
+      "@babel/runtime/helpers/defineProperty": [
+        "./node_modules/.pnpm/@babel+runtime@7.28.3/node_modules/@babel/runtime/helpers/defineProperty.js"
+      ],
+      "@babel/runtime/helpers/defineProperty/*": [
+        "./node_modules/.pnpm/@babel+runtime@7.28.3/node_modules/@babel/runtime/helpers/defineProperty.js/*"
+      ],
+      "@babel/runtime/regenerator": [
+        "./node_modules/.pnpm/@babel+runtime@7.28.3/node_modules/@babel/runtime/regenerator/index.js"
+      ],
+      "@babel/runtime/regenerator/*": [
+        "./node_modules/.pnpm/@babel+runtime@7.28.3/node_modules/@babel/runtime/regenerator/index.js/*"
+      ]
+    }
+  }
+}
