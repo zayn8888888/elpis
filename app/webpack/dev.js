@@ -15,7 +15,7 @@ module.exports = () => {
   const app = express();
   const compiler = webpack(webpackConfig);
   // 指定静态文件目录
-  app.use(express.static(path.join(process.cwd(), "./app/public/dist")));``
+  app.use(express.static(path.join(process.cwd(), "./app/public/dist")));
   //引用devMiddlewarez中间件（监控文件改动）
   app.use(
     devMiddleware(compiler, {
